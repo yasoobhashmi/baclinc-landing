@@ -71,10 +71,6 @@ img {
         margin-bottom: 0;
  }
 
-.dropdown {
-	text-align: center;
-}
-
 #fshead {
 	text-align: center;
 }
@@ -124,15 +120,11 @@ img {
 }
 
 #client_logos { 
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
-	grid-template-rows: 1fr;
-	grid-gap: 10px;
-
-}
-
-.service-img {
-	width: 100%;
+	background-image: url(marsolution.png);
+	color: white;
+ 	background-size: auto;
+ 	display: grid;
+ 	grid-template-rows: 360px;
 }
 
 .service-hover{
@@ -146,7 +138,7 @@ img {
 #text {
 	font-size: 1em;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(400px, 570px));
+	grid-template-columns: repeat(auto-fill, minmax(300px, 570px));
 	grid-gap: 40px;
 }
 
@@ -164,7 +156,7 @@ img {
 	background-color: #FFFCD1;
 	background-repeat: 0.5;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(400px, 600px));
+	grid-template-columns: repeat(auto-fill, minmax(360px, 600px));
 	grid-template-rows: 1fr;
 	align
 }
@@ -186,7 +178,7 @@ img {
 
 .bacdif {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
 	grid-gap: 5px;
 
 }
@@ -204,7 +196,7 @@ img {
  }
  .mapbac {
  	display: grid;
- 	grid-template-columns: repeat(auto-fill, minmax(400px, 600px));
+ 	grid-template-columns: repeat(auto-fill, minmax(360px, 600px));
  	grid-gap: 10px;
  }
 
@@ -214,11 +206,10 @@ img {
 
 .footer {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
 	grid-template-rows: 1fr;
 	background-color: #2F2E2E;
 	padding-top: 25px;
-	padding-left: 80px;
 }
 
 .cardbg {
@@ -235,13 +226,8 @@ img {
 	background-color: #2F2E2E;
 	grid-template-columns: 1fr;
 	color: white;
-}
-
-.serviceahref {
-	background-color: blue;
-	border-radius: 20px;
-	color: white;
-	width: 500px;
+	width: 100%;
+	text-align: center;
 }
 
 .serbtn {
@@ -258,5 +244,6 @@ img {
 .footpara {
 	border-radius: 20px;
 	background-color: #5F0090;
-	width: 400px;
+	width: 360px;
+	text-align: center;	
 }
