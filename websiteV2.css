@@ -35,12 +35,9 @@
 }
 
 .container-fluid {
-	width: 100%;
- 	min-width: 100%;
- 	padding-left: 0px;
- 	padding-right: 0px;
- 	margin: 0 auto;
-	position: relative;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 100%));
+	grid-template-rows: 1fr;
 	text-align: center;
 	color: white;
 }
@@ -56,7 +53,7 @@
 }
 
 .bnrbtn {
-	padding-right: 70px;
+	padding-right: 80px;
 }
 
 img {
@@ -100,8 +97,6 @@ img {
 
 .card {
 	text-align: center;
-	width: 100%;
-	height: 16em;
 	border-color: #5F0090;
 	transition: 0.5s;
 	cursor: default;
@@ -117,15 +112,11 @@ img {
 	width: 100%;
 }
 
-.card-body {
-	width: 100%;
-	height: 100%;
-	align-self: center;
-}
 
 .services {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-template-rows: 1fr;
 	grid-gap: 40px;
 	padding-left: 9%;
 	padding-right: 6%;
@@ -137,7 +128,8 @@ img {
 
 #client_logos { 
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+	grid-template-rows: 1fr;
 	grid-gap: 10px;
 
 }
@@ -157,10 +149,8 @@ img {
 #text {
 	font-size: 1em;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 570px));
 	grid-gap: 40px;
-	height: 250px;
-	width: 100%;
 }
 
 .drophover{
@@ -175,11 +165,11 @@ img {
 
 .mainbody2 {
 	background-color: #FFFCD1;
-	width: 100%;
-	height: 500px;
 	background-repeat: 0.5;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 600px));
+	grid-template-rows: 1fr;
+	align
 }
 
 .buffer2 { 
@@ -196,13 +186,10 @@ img {
 	font-size: 1.4em;
 }
 
-.main2img {
-	height: 500px;
-}
 
 .bacdif {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 	grid-gap: 5px;
 
 }
@@ -220,10 +207,7 @@ img {
  }
  .mapbac {
  	display: grid;
- 	grid-template-columns: 1fr 1fr;
- 	height: 545px;
- 	padding-right: 40px;
- 	padding-left: 20px;
+ 	grid-template-columns: repeat(auto-fill, minmax(400px, 600px));
  	grid-gap: 10px;
  }
 
@@ -233,9 +217,9 @@ img {
 
 .footer {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-template-rows: 1fr;
 	background-color: #2F2E2E;
-	height: 350px;
 	padding-top: 25px;
 	padding-left: 80px;
 }
@@ -252,10 +236,8 @@ img {
 
 .footfooter {
 	background-color: #2F2E2E;
+	grid-template-columns: 1fr;
 	color: white;
-	text-align: center;
-	padding-left: 395px;
-	height: 50px;
 }
 
 .serviceahref {
