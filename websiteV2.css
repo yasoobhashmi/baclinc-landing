@@ -122,7 +122,6 @@ img {
 #client_logos { 
 	background-image: url(marsolution.png);
 	color: white;
- 	background-size: auto;
  	display: grid;
  	grid-template-rows: 360px;
 }
